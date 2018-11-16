@@ -4,7 +4,7 @@ using OpenTracing.Tag;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal static class SpanExtensions
+    public static class SpanExtensions
     {
         /// <summary>
         /// Sets the <see cref="Tags.Error"/> tag and adds information about the <paramref name="exception"/>

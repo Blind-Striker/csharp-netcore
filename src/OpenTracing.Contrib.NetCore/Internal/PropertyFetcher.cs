@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal class PropertyFetcher
+    public class PropertyFetcher
     {
         private readonly string _propertyName;
         private Type _expectedType;

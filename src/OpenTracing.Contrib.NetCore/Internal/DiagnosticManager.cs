@@ -7,7 +7,7 @@ using Microsoft.Extensions.Options;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal sealed class DiagnosticManager : IObserver<DiagnosticListener>, IDisposable
+    public sealed class DiagnosticManager : IObserver<DiagnosticListener>, IDisposable
     {
         private readonly ILogger _logger;
         private readonly ITracer _tracer;

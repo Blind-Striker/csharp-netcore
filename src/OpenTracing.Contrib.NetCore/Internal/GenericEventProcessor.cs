@@ -6,7 +6,7 @@ using OpenTracing.Tag;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal class GenericEventProcessor
+    public class GenericEventProcessor
     {
         private readonly string _listenerName;
         private readonly ITracer _tracer;

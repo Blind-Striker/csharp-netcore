@@ -3,7 +3,7 @@ using OpenTracing.Util;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal static class TracerExtensions
+    public static class TracerExtensions
     {
         public static bool IsNoopTracer(this ITracer tracer)
         {

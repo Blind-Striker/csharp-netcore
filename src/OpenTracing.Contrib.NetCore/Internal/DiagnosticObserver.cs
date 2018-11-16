@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-    internal abstract class DiagnosticObserver
+    public abstract class DiagnosticObserver
     {
         protected ILogger Logger { get; }
 

@@ -5,8 +5,7 @@ using Microsoft.Extensions.Logging;
 
 namespace OpenTracing.Contrib.NetCore.Internal
 {
-
-    internal abstract class DiagnosticListenerObserver : DiagnosticObserver, IObserver<KeyValuePair<string, object>>
+    public abstract class DiagnosticListenerObserver : DiagnosticObserver, IObserver<KeyValuePair<string, object>>
     {
         private readonly GenericEventProcessor _genericEventProcessor;
 
