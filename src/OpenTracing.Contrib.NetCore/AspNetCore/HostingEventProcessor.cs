@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Extensions;
+using OpenTracing.Contrib.Instrumentation.Utils;
 using OpenTracing.Propagation;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.NetCore.AspNetCore
+namespace OpenTracing.Contrib.Instrumentation.AspNetCore
 {
     internal class HostingEventProcessor
     {

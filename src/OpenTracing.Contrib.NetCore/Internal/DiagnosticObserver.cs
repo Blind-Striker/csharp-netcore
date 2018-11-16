@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Diagnostic
 {
     public abstract class DiagnosticObserver
     {

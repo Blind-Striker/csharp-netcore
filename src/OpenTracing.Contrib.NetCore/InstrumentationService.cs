@@ -2,9 +2,9 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Diagnostic;
 
-namespace OpenTracing.Contrib.NetCore
+namespace OpenTracing.Contrib.Instrumentation
 {
     /// <summary>
     /// Starts and stops all OpenTracing instrumentation components.

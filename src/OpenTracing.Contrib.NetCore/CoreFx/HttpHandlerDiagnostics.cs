@@ -3,11 +3,13 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Diagnostic;
+using OpenTracing.Contrib.Instrumentation.Extensions;
+using OpenTracing.Contrib.Instrumentation.Utils;
 using OpenTracing.Propagation;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.NetCore.CoreFx
+namespace OpenTracing.Contrib.Instrumentation.Http
 {
     /// <summary>
     /// Instruments outgoing HTTP calls that use <see cref="HttpClientHandler"/>.

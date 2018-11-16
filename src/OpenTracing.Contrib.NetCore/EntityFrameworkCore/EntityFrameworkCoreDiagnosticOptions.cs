@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace OpenTracing.Contrib.NetCore.EntityFrameworkCore
+namespace OpenTracing.Contrib.Instrumentation.EntityFrameworkCore
 {
     public class EntityFrameworkCoreDiagnosticOptions
     {

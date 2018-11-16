@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace OpenTracing.Contrib.NetCore.CoreFx
+namespace OpenTracing.Contrib.Instrumentation.Bcl
 {
     public sealed class GenericDiagnosticOptions
     {

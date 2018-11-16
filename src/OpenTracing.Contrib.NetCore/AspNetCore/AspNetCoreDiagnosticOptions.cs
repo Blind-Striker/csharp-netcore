@@ -1,6 +1,4 @@
-﻿using OpenTracing.Contrib.NetCore.AspNetCore;
-
-namespace OpenTracing.Contrib.NetCore.Configuration
+﻿namespace OpenTracing.Contrib.Instrumentation.AspNetCore
 {
     public class AspNetCoreDiagnosticOptions
     {

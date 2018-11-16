@@ -3,7 +3,7 @@
 using System;
 using System.Reflection;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Utils
 {
     public class PropertyFetcher
     {

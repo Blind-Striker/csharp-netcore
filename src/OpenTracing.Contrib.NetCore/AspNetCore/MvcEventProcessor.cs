@@ -2,10 +2,10 @@ using System;
 using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Utils;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.NetCore.AspNetCore
+namespace OpenTracing.Contrib.Instrumentation.AspNetCore
 {
     internal sealed class MvcEventProcessor
     {

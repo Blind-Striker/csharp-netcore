@@ -4,7 +4,7 @@ using System.Diagnostics;
 using Microsoft.Extensions.Logging;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Diagnostic
 {
     public class GenericEventProcessor
     {

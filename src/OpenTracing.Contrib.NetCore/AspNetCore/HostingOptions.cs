@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 
-namespace OpenTracing.Contrib.NetCore.AspNetCore
+namespace OpenTracing.Contrib.Instrumentation.AspNetCore
 {
     public class HostingOptions
     {

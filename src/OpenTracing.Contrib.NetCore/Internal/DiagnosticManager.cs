@@ -4,8 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using OpenTracing.Contrib.Instrumentation.Extensions;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Diagnostic
 {
     public sealed class DiagnosticManager : IObserver<DiagnosticListener>, IDisposable
     {

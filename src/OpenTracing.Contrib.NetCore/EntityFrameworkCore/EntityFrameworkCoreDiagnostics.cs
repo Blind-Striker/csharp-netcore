@@ -2,10 +2,10 @@ using System;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Diagnostic;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.NetCore.EntityFrameworkCore
+namespace OpenTracing.Contrib.Instrumentation.EntityFrameworkCore
 {
     internal sealed class EntityFrameworkCoreDiagnostics : DiagnosticListenerObserver
     {

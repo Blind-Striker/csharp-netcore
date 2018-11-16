@@ -2,34 +2,17 @@ using System;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using OpenTracing;
-using OpenTracing.Contrib.NetCore;
-using OpenTracing.Contrib.NetCore.Configuration;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation;
+using OpenTracing.Contrib.Instrumentation.Configuration;
+using OpenTracing.Contrib.Instrumentation.Contracts;
+using OpenTracing.Contrib.Instrumentation.Diagnostic;
+using OpenTracing.Contrib.Instrumentation.Utils;
 using OpenTracing.Util;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {
-        ///// <summary>
-        ///// Adds OpenTracing instrumentation for ASP.NET Core, CoreFx (BCL), Entity Framework Core.
-        ///// </summary>
-        //public static IServiceCollection AddOpenTracing(this IServiceCollection services, Action<IOpenTracingBuilder> builder = null)
-        //{
-        //    if (services == null)
-        //        throw new ArgumentNullException(nameof(services));
-
-        //    return services.AddOpenTracingCoreServices(otBuilder =>
-        //    {
-        //        otBuilder.AddAspNetCore()
-        //            .AddCoreFx()
-        //            .AddEntityFrameworkCore()
-        //            .AddLoggerProvider();
-
-        //        builder?.Invoke(otBuilder);
-        //    });
-        //}
-
         /// <summary>
         /// Adds the core services required for OpenTracing without any actual instrumentations.
         /// </summary>

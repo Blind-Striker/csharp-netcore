@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
+using OpenTracing.Contrib.Instrumentation.Extensions;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Diagnostic
 {
     public abstract class DiagnosticListenerObserver : DiagnosticObserver, IObserver<KeyValuePair<string, object>>
     {

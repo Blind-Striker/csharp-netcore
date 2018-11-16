@@ -1,7 +1,7 @@
 ﻿using OpenTracing.Noop;
 using OpenTracing.Util;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Extensions
 {
     public static class TracerExtensions
     {

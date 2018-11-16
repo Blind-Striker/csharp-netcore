@@ -1,10 +1,9 @@
 using System;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using OpenTracing.Contrib.NetCore.Configuration;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Diagnostic;
 
-namespace OpenTracing.Contrib.NetCore.AspNetCore
+namespace OpenTracing.Contrib.Instrumentation.AspNetCore
 {
     /// <summary>
     /// Instruments ASP.NET Core.

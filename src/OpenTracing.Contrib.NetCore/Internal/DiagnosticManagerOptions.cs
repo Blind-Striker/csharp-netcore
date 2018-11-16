@@ -1,4 +1,4 @@
-﻿namespace OpenTracing.Contrib.NetCore.Internal
+﻿namespace OpenTracing.Contrib.Instrumentation.Diagnostic
 {
     public class DiagnosticManagerOptions
     {

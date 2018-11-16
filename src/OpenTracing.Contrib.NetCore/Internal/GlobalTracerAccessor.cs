@@ -1,6 +1,7 @@
+using OpenTracing.Contrib.Instrumentation.Contracts;
 using OpenTracing.Util;
 
-namespace OpenTracing.Contrib.NetCore.Internal
+namespace OpenTracing.Contrib.Instrumentation.Utils
 {
     public class GlobalTracerAccessor : IGlobalTracerAccessor
     {
