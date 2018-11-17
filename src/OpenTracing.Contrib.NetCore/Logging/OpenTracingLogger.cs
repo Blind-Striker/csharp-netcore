@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Extensions;
 
-namespace OpenTracing.Contrib.NetCore.Logging
+namespace OpenTracing.Contrib.Instrumentation.Logging
 {
     internal class OpenTracingLogger : ILogger
     {

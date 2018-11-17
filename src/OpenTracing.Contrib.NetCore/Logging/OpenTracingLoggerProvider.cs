@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
-using OpenTracing.Contrib.NetCore.Internal;
+using OpenTracing.Contrib.Instrumentation.Contracts;
 
-namespace OpenTracing.Contrib.NetCore.Logging
+namespace OpenTracing.Contrib.Instrumentation.Logging
 {
     /// <summary>
     /// The provider for the <see cref="OpenTracingLogger"/>.

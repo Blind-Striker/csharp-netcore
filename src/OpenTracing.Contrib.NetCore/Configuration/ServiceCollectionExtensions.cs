@@ -16,7 +16,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <summary>
         /// Adds the core services required for OpenTracing without any actual instrumentations.
         /// </summary>
-        public static IServiceCollection AddOpenTracingCoreServices(this IServiceCollection services, Action<IOpenTracingBuilder> builder = null)
+        public static IServiceCollection AddOpenTracing(this IServiceCollection services, Action<IOpenTracingBuilder> builder = null)
         {
             if (services == null)
                 throw new ArgumentNullException(nameof(services));
