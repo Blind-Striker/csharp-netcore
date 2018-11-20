@@ -9,7 +9,7 @@ using OpenTracing.Contrib.Instrumentation.Utils;
 using OpenTracing.Propagation;
 using OpenTracing.Tag;
 
-namespace OpenTracing.Contrib.Instrumentation.Http
+namespace OpenTracing.Contrib.Instrumentation.HttpClientCore
 {
     /// <summary>
     /// Instruments outgoing HTTP calls that use <see cref="HttpClientHandler"/>.

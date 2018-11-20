@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http;
 
-namespace OpenTracing.Contrib.Instrumentation.Http
+namespace OpenTracing.Contrib.Instrumentation.HttpClientCore
 {
     public class HttpHandlerDiagnosticOptions
     {
